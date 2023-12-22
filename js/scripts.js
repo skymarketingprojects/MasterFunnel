@@ -3,8 +3,6 @@
    Created: Nov 2019
    Description: Custom JS file
 */
-
-
 (function($) {
     "use strict"; 
 	
@@ -63,15 +61,15 @@
 
     /* Image Slider 2 - Swiper */
     var imageSliderOne = new Swiper('.image-slider-1', {
-        autoplay: {
-            delay: 3000,
-            disableOnInteraction: false
-		},
-        loop: true,
-        navigation: {
+        // autoplay: {
+        //     delay: 3000,
+        //     disableOnInteraction: false
+		// },
+        // loop: true,
+        // navigation: {
 			nextEl: '.swiper-button-next',
 			prevEl: '.swiper-button-prev',
-		}
+		// }
     });
 
 
